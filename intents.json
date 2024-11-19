@@ -1,0 +1,72 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hello",
+                "Hi",
+                "Hey",
+                "Good morning",
+                "Good evening"
+            ],
+            "responses": [
+                "Hello! How can I assist you today?",
+                "Hi there! How can I help?",
+                "Hey! What do you need help with?"
+            ]
+        },
+        {
+            "tag": "blood_donation_eligibility",
+            "patterns": [
+                "Who can donate blood?",
+                "What are the requirements for blood donation?",
+                "Am I eligible to donate blood?",
+                "Can anyone donate blood?"
+            ],
+            "responses": [
+                "You must be between 18-65 years old, weigh at least 50 kg, and be healthy to donate blood.",
+                "Blood donors should be free of infections, not on medication, and should have a hemoglobin level of at least 12.5 g/dL."
+            ]
+        },
+        {
+            "tag": "contact_information",
+            "patterns": [
+                "What is your contact number?",
+                "How can I contact you?",
+                "Give me your phone number",
+                "How to reach you?"
+            ],
+            "responses": [
+                "You can contact us at +1234567890 or email us at bloodbank@example.com.",
+                "Feel free to call us at +0987654321."
+            ]
+        },
+        {
+            "tag": "thank_you",
+            "patterns": [
+                "Thank you",
+                "Thanks",
+                "I appreciate it",
+                "Thanks a lot"
+            ],
+            "responses": [
+                "You're welcome!",
+                "Happy to help!",
+                "Glad I could assist you!"
+            ]
+        },
+        {
+            "tag": "unknown",
+            "patterns": [
+                "What are you?",
+                "I need help with something else",
+                "Can you do something else?",
+                "I have a different query"
+            ],
+            "responses": [
+                "I'm sorry, I didn't understand that. Can you please rephrase?",
+                "I'm here to help with blood bank-related queries. Could you clarify your question?"
+            ]
+        }
+    ]
+}
