@@ -1,0 +1,155 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
+    background-image: url(blood-donation-web-banner-landing-page-illustration_277904-9150-Photoroom.png);
+    background-size: cover;
+
+}
+
+.parallax {
+    background-image: url('');
+    /* Replace with your image path */
+    height: 100vh;
+    /* Full viewport height */
+    background-attachment: fixed;
+    /* Fixes the background */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.button-container {
+    position: absolute;
+    /* Allows precise positioning */
+    top: 20px;
+    /* Adjust for vertical position */
+    right: 20px;
+    /* Adjust for horizontal position */
+    display: flex;
+    gap: 15px;
+}
+
+.capsule-button {
+    background-color: #8fb8e4;
+    /* Blue background */
+    color: white;
+    /* White text */
+    border: none;
+    border-radius: 50px;
+    /* Capsule shape */
+    padding: 10px 20px;
+    /* Adjust padding for desired size */
+    font-size: 1em;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+.capsule-button:hover {
+    background-color: #fcfcfc;
+    /* Darker blue on hover */
+    transform: scale(1.05);
+    /* Slight zoom on hover */
+}
+
+.capsule-button:active {
+    transform: scale(0.95);
+    /* Slight press effect */
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    color: #131516;
+    position: absolute;
+    /* Allows precise positioning */
+    top: 20px;
+    /* Adjust for vertical position */
+    left: 20px;
+    /* Adjust for horizontal position */
+    display: flex;
+    gap: 15px;
+    font-family: "Oswald";
+}
+
+.nav-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+    font-size: 1em;
+}
+
+.nav-links a:hover {
+    color: #007bff;
+}
+
+.heading {
+    color: #9bc3ed;
+    right: 20px;
+    padding: 60px;
+    font-size: 70px;
+    padding-bottom: 400px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.text-content {
+    text-align: left;
+    /* Center-aligns the paragraphs */
+    /* Limits the width for readability */
+}
+
+.para {
+    font-size: 1.2rem;
+    line-height: 1.2;
+    margin: 5px 0;
+    color: #333;
+    padding-right: 900px;
+    
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 60px);
+}
+
+.illustration {
+    max-width: 80%;
+    height: auto;
+    border-radius: 10px;
+}
+.logo-container {
+    display: flex;
+    align-items: center; /* Align image and text vertically */
+    gap: 10px; /* Add space between the image and the text */
+    margin-bottom: 20px; /* Space below the logo container */
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .logo-image {
+    width: 50px; /* Adjust the size of the image */
+    height: 50px; /* Ensure the image is square */
+    border-radius: 50%; /* Optional: Make it circular */
+    object-fit: cover; /* Ensure the image fits inside the box */
+  }
